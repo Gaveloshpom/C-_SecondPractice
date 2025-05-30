@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 public class Driver
 {
@@ -27,7 +28,7 @@ public class Driver
 
     [Required]
     public string LicenseCategory { get; set; } // 'A', 'B', 'C'
-
-    public ICollection<Departure> Departures { get; set; }
+    [JsonIgnore]
+    public ICollection<Departure>? Departures { get; set; }
 }
 

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAcce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{F17EEC76-C370-4301-B2E5-DD11FA5CCF8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPark.API", "AutoPark.API\AutoPark.API.csproj", "{B1A679DE-CDCB-4865-975B-1BC355F81A82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPark.IntegrationTests", "AutoPark.IntegrationTests\AutoPark.IntegrationTests.csproj", "{FF1C8CA6-25C6-467B-A3DE-C578A63139F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F17EEC76-C370-4301-B2E5-DD11FA5CCF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F17EEC76-C370-4301-B2E5-DD11FA5CCF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F17EEC76-C370-4301-B2E5-DD11FA5CCF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A679DE-CDCB-4865-975B-1BC355F81A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A679DE-CDCB-4865-975B-1BC355F81A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A679DE-CDCB-4865-975B-1BC355F81A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A679DE-CDCB-4865-975B-1BC355F81A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1C8CA6-25C6-467B-A3DE-C578A63139F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1C8CA6-25C6-467B-A3DE-C578A63139F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1C8CA6-25C6-467B-A3DE-C578A63139F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1C8CA6-25C6-467B-A3DE-C578A63139F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

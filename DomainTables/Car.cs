@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 public class Car
 {
@@ -22,7 +23,8 @@ public class Car
     [Range(1.0, 99.9)]
     public decimal FuelConsumption { get; set; } // літри на 100 км
 
-    public ICollection<Departure> Departures { get; set; }
+    [JsonIgnore]
+    public ICollection<Departure>? Departures { get; set; }
 }
 
 

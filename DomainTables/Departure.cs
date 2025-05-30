@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 public class Departure
 {
@@ -16,6 +17,9 @@ public class Departure
     [Required]
     public int Distance { get; set; }
 
-    public Driver Driver { get; set; }
-    public Car Car { get; set; }
+    [JsonIgnore]
+    public Driver? Driver { get; set; }
+    
+    [JsonIgnore]
+    public Car? Car { get; set; }
 }
